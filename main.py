@@ -1,15 +1,10 @@
 import asyncio
 import aiohttp
-
 import config
 from config import ParseResult
-
 from bs4 import BeautifulSoup as BS
-# from FakeAgent import Fake_Agent
-
 
 BASE_URL = 'https://emall.by/category/3855'
-# HEADERS = {'User-Agent': Fake_Agent().random}
 
 
 async def main():
